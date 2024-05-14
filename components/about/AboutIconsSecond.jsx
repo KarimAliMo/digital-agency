@@ -8,7 +8,7 @@ const AboutIconsSecond = () => {
         we are
       </h2>
       <h2
-        className={`${oswald.className} text-white uppercase font-bold text-4xl xl:text-[60px]`}
+        className={`${oswald.className} text-white uppercase font-bold text-4xl xl:text-[60px] xl:mt-4`}
       >
         digital agency
       </h2>
