@@ -16,7 +16,7 @@ const Team = () => {
           >
             amazing team
           </h2>
-          <p className=" text-slate-100 text-center mt-8 lg:text-start ">
+          <p className=" text-slate-100 text-center mt-8 lg:text-start lg:w-[90%] ">
             Lorem ipsum is simply dummy text of the printing and typesetting.
             Lorem Ipsum has been the industry's standard dummy.
           </p>
