@@ -1,5 +1,6 @@
 import About from "@/components/about/About";
 import Landing from "@/components/land/Landing";
+import Portfolio from "@/components/portfolio/Portfolio";
 import Statistics from "@/components/statistics/Statistics";
 import Team from "@/components/team/Team";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <About />
       <Statistics />
       <Team />
+      <Portfolio />
     </main>
   );
 }
