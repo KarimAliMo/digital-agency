@@ -52,7 +52,7 @@ const All = () => {
               transition: { duration: 0.7, delay: 0.2 },
             }}
             exit={{ x: -300, opacity: 0, transition: { duration: 0.4 } }}
-            className=" relative w-fit cursor-pointer"
+            className=" relative w-fit cursor-pointer xl:-mt-[100px]"
           >
             <div className=" absolute top-[5%] left-[5%] w-[90%] h-[90%] z-20 opacity-0 hover:opacity-100 bg-[#f71c53a4]"></div>
             <Image
