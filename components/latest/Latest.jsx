@@ -33,7 +33,7 @@ const Latest = () => {
               src={Blog1}
               width={400}
               height={400}
-              className=" lg:w-[500px] lg:h-[400px]"
+              className=" lg:w-[500px] lg:h-[400px] 2xl:w-[600px]"
             />
           </div>
         </div>
