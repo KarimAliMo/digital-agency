@@ -14,7 +14,7 @@ const Partners = () => {
         <Carousel
           className=""
           opts={{
-            align: "start",
+            align: "center",
             loop: true,
           }}
           plugins={[
