@@ -12,7 +12,7 @@ const Customers = () => {
               satisfied
             </h2>
             <h2
-              className={`${oswald.className} font-bold text-[44px] lg:text-[60px] text-center lg:text-start mt-2 uppercase text-white`}
+              className={`${oswald.className} font-bold text-[44px] lg:text-[60px] text-center lg:text-start mt-2 lg:mt-0 uppercase text-white`}
             >
               customers
             </h2>
