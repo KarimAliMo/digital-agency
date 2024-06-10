@@ -1,6 +1,7 @@
 import About from "@/components/about/About";
 import Customers from "@/components/customers/Customers";
 import Landing from "@/components/land/Landing";
+import Latest from "@/components/latest/Latest";
 import Partners from "@/components/partners/Partners";
 import Portfolio from "@/components/portfolio/Portfolio";
 import Statistics from "@/components/statistics/Statistics";
@@ -16,6 +17,7 @@ export default function Home() {
       <Portfolio />
       <Customers />
       <Partners />
+      <Latest />
     </main>
   );
 }
