@@ -1,4 +1,5 @@
 import About from "@/components/about/About";
+import Communication from "@/components/communication/Communication";
 import Customers from "@/components/customers/Customers";
 import Landing from "@/components/land/Landing";
 import Latest from "@/components/latest/Latest";
@@ -18,6 +19,7 @@ export default function Home() {
       <Customers />
       <Partners />
       <Latest />
+      <Communication />
     </main>
   );
 }
