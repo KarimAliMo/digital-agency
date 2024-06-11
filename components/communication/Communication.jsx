@@ -6,7 +6,7 @@ import { CiLocationArrow1 } from "react-icons/ci";
 const Communication = () => {
   return (
     <div className=" min-h-screen w-full py-8 overflow-hidden">
-      <div className=" lg:px-10 flex flex-col items-center justify-center gap-14 lg:flex-row 2xl:gap-20">
+      <div className=" lg:px-10 2xl:px-52 flex flex-col items-center justify-center gap-14 lg:flex-row 2xl:gap-20">
         <div className=" flex flex-col justify-center items-center lg:items-start">
           <h2
             className={`${oswald.className} uppercase font-bold text-center text-[40px] mb-5 lg:text-start`}
@@ -21,19 +21,19 @@ const Communication = () => {
             <div className=" flex flex-col items-center justify-center gap-4 md:gap-9">
               <input
                 type="text"
-                className=" outline outline-2 outline-slate-500 w-[80vw] p-3 md:w-[40vw] lg:w-[23vw]"
+                className=" outline outline-2 outline-slate-500 w-[80vw] p-3 md:w-[40vw] lg:w-[23vw] 2xl:w-[20vw]"
                 placeholder="Your Name"
               />
               <input
                 type="email"
                 name=""
                 id=""
-                className=" outline outline-2 outline-slate-500 w-[80vw] p-3 md:w-[40vw] lg:w-[23vw]"
+                className=" outline outline-2 outline-slate-500 w-[80vw] p-3 md:w-[40vw] lg:w-[23vw] 2xl:w-[20vw]"
                 placeholder="Email Address"
               />
               <input
                 type="text"
-                className=" outline outline-2 outline-slate-500 w-[80vw] p-3 md:w-[40vw] lg:w-[23vw]"
+                className=" outline outline-2 outline-slate-500 w-[80vw] p-3 md:w-[40vw] lg:w-[23vw] 2xl:w-[20vw]"
                 placeholder="Subject"
               />
             </div>
@@ -41,7 +41,7 @@ const Communication = () => {
               name=""
               id=""
               rows="8"
-              className=" outline outline-2 outline-slate-500 w-full p-3 md:w-[40vw] lg:w-[23vw]"
+              className=" outline outline-2 outline-slate-500 w-full p-3 md:w-[40vw] lg:w-[23vw] 2xl:w-[20vw]"
               placeholder="Your Message"
             ></textarea>
           </form>
@@ -58,13 +58,13 @@ const Communication = () => {
           >
             our location
           </h2>
-          <p className=" text-center text-slate-800 lg:text-start lg:w-2/3">
+          <p className=" text-center text-slate-800 lg:text-start lg:w-2/3 2xl:w-full">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered .
           </p>
           <div className=" flex flex-col justify-center items-center gap-3 mt-10 lg:flex-row lg:justify-start">
             <MdOutlineLocationOn className=" text-4xl text-[#f71c52] lg:text-5xl" />
-            <p className=" text-slate-800 text-center lg:w-1/3 lg:text-start">
+            <p className=" text-slate-800 text-center lg:w-1/3 2xl:w-1/2 lg:text-start">
               123 Park Avenue, New York, United States
             </p>
           </div>
