@@ -16,37 +16,37 @@ const NavMenu = () => {
       </div>
       <div className=" flex gap-8 items-center justify-end">
         <Link
-          href="#"
+          href="#Home"
           className=" uppercase font-semibold text-slate-900 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 "
         >
           home
         </Link>
         <Link
-          href="#"
+          href="#About"
           className=" uppercase font-semibold text-slate-900 dark:text-white hover:text-green-400 dark:hover:text-green-400 "
         >
           about
         </Link>
         <Link
-          href="#"
+          href="#Portfolio"
           className=" uppercase font-semibold text-slate-900 dark:text-white hover:text-indigo-500 dark:hover:text-indigo-400 "
         >
           portfolio
         </Link>
         <Link
-          href="#"
+          href="#Clients"
           className=" uppercase font-semibold text-slate-900 dark:text-white hover:text-green-500 dark:hover:text-green-400 "
         >
           clients
         </Link>
         <Link
-          href="#"
+          href="#Blog"
           className=" uppercase font-semibold text-slate-900 dark:text-white hover:text-rose-500 dark:hover:text-rose-400 "
         >
           blog
         </Link>
         <Link
-          href="#"
+          href="#Contact"
           className=" uppercase font-semibold text-slate-900 dark:text-white hover:text-indigo-500 dark:hover:text-indigo-400 "
         >
           contact

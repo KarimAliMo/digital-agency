@@ -3,7 +3,10 @@ import Image from "next/image";
 import Blog1 from "@/public/blog1.png";
 const Latest = () => {
   return (
-    <div className=" h-screen flex justify-start items-center w-full overflow-hidden lg:relative">
+    <div
+      id="Blog"
+      className=" h-screen flex justify-start items-center w-full overflow-hidden lg:relative"
+    >
       <div className=" lg:w-[80vw] 2xl:w-[70vw] lg:h-[80vh] w-full h-full flex justify-center items-center bg-[#39D47A]">
         <div className=" container 2xl:px-52">
           <div className=" flex flex-col justify-center items-center lg:justify-start lg:items-start">

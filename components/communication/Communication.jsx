@@ -5,7 +5,10 @@ import { CiLocationArrow1 } from "react-icons/ci";
 
 const Communication = () => {
   return (
-    <div className=" min-h-screen w-full py-8 overflow-hidden flex justify-center items-center">
+    <div
+      id="Contact"
+      className=" min-h-screen w-full py-8 overflow-hidden flex justify-center items-center"
+    >
       <div className=" lg:px-10 2xl:px-52 flex flex-col items-center justify-center gap-14 lg:flex-row 2xl:gap-20">
         <div className=" flex flex-col justify-center items-center lg:items-start">
           <h2

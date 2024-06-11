@@ -13,7 +13,7 @@ const Portfolio = () => {
   const [mopApp, setMopApp] = useState(false);
   const [devPic, setDevPic] = useState(false);
   return (
-    <div className=" min-h-screen w-full py-32 overflow-hidden">
+    <div id="Portfolio" className=" min-h-screen w-full py-32 overflow-hidden">
       <div className=" container 2xl:px-52 grid grid-cols-1 ">
         <div className="">
           <p

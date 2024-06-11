@@ -2,7 +2,10 @@ import { oswald } from "@/lib/fonts";
 import CustomersCarousel from "./CustomersCarousel";
 const Customers = () => {
   return (
-    <div className=" h-screen flex  lg:justify-end items-center py-8 w-full overflow-hidden">
+    <div
+      id="Clients"
+      className=" h-screen flex  lg:justify-end items-center py-8 w-full overflow-hidden"
+    >
       <div className=" lg:w-[80vw] bg-[#554C86] lg:h-[80vh] w-full h-full flex justify-center items-center">
         <div className=" container flex flex-col gap-8 lg:flex-row lg:justify-between 2xl:px-12">
           <div className="">

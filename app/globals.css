@@ -48,3 +48,8 @@
     --ring: 346.8 77.2% 49.8%;
   }
 }
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: #f71c52 white;
+  scrollbar-width: 0;
+}
