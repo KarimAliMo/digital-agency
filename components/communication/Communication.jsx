@@ -47,7 +47,7 @@ const Communication = () => {
           </form>
           <button
             type="submit"
-            className=" rounded-3xl text-slate-50 capitalize bg-[#554C86] py-3 w-full mt-8 font-semibold"
+            className=" rounded-3xl text-slate-50 capitalize bg-[#554C86] hover:bg-[#f71c52] py-3 w-full mt-8 font-semibold"
           >
             send message
           </button>
@@ -58,30 +58,30 @@ const Communication = () => {
           >
             our location
           </h2>
-          <p className=" text-center text-slate-800 lg:text-start lg:w-2/3 2xl:w-full">
+          <p className=" text-center text-slate-800 dark:text-slate-200 lg:text-start lg:w-2/3 2xl:w-full">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered .
           </p>
           <div className=" flex flex-col justify-center items-center gap-3 mt-10 lg:flex-row lg:justify-start">
             <MdOutlineLocationOn className=" text-4xl text-[#f71c52] lg:text-5xl" />
-            <p className=" text-slate-800 text-center lg:w-1/3 2xl:w-1/2 lg:text-start">
+            <p className=" text-slate-800 dark:text-slate-200 text-center lg:w-1/3 2xl:w-1/2 lg:text-start">
               123 Park Avenue, New York, United States
             </p>
           </div>
           <div className=" flex flex-col justify-center items-center gap-3 mt-10 lg:flex-row lg:justify-start">
             <FiPhoneCall className=" text-4xl text-[#554c86] lg:text-4xl" />
             <div className=" flex justify-center items-center gap-3 lg:justify-start lg:gap-5">
-              <p className=" text-slate-800 text-center lg:text-start">
+              <p className=" text-slate-800 dark:text-slate-200 text-center lg:text-start">
                 +1 631 1234 5678{" "}
               </p>
-              <p className=" text-slate-800 text-center lg:text-start">
+              <p className=" text-slate-800 dark:text-slate-200 text-center lg:text-start">
                 +1 631 1234 5678
               </p>
             </div>
           </div>
           <div className=" flex flex-col justify-center items-center gap-3 mt-10 lg:flex-row lg:justify-start">
             <CiLocationArrow1 className=" text-4xl text-[#39d47a] lg:text-5xl" />
-            <p className=" text-slate-800 text-center lg:text-start">
+            <p className=" text-slate-800 dark:text-slate-200 text-center lg:text-start">
               email@website.com
             </p>
           </div>
