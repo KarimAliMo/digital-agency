@@ -1,5 +1,3 @@
-"use server";
-
 import LandHeadModel from "@/models/LandHeadModel";
 import connectDB from "@/config/database";
 
